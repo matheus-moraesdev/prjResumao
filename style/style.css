@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'Old London';
+    src: url(../Fontes/OldLondon.ttf),
+    url(../Fontes/OldLondonAlternate.ttf),
+    url(../Fontes/Olondon_.otf),
+    url(../Fontes/Olondona.otf);
+    
+    font-weight: normal;
+    font-style: oblique;
+}
+
+.texto-artigo1{
+    font-style: "Roboto";
+}
+
+.texto-artigo2{
+    font-style: "Montserrat";
+}
+
+.texto-artigo3{
+    font-family: 'Old London';
+}
