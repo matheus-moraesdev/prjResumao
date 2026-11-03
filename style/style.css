@@ -43,7 +43,7 @@ nav ul li{
     width: 160px;
     height: 25px;
     margin: 5px;
-    padding: 5px auto;
+    padding: 5px;
     text-align: center;
     background-color: antiquewhite;
     border-radius: 15px;
@@ -62,6 +62,7 @@ nav ul li a{
     height: 0px;
     overflow: hidden;
     transition: height 0.5s;
+    transition: width 0.5s;
 }
 
 #lista-menu:hover{
