@@ -24,3 +24,47 @@
 .texto-artigo3{
     font-family: 'Old London';
 }
+
+nav ul{
+    list-style: none;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+a:hover{
+    color: aqua;
+}
+
+nav ul li{
+    display: inline-block;
+    width: 160px;
+    height: 25px;
+    margin: 5px;
+    padding: 5px auto;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 15px;
+}
+
+nav ul:hover{
+    height: 100%;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+#menu-lista{
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+
+#lista-menu:hover{
+    height: 600px;
+    width: 100vh;
+}
